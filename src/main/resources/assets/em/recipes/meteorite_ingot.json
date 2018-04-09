@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped", 
+    
+    "pattern":
+    [
+        "OO",
+        "OO"
+    ],
+    
+    "key":
+    {
+        "O":
+        {
+            "item": "em:cold_stone_dust_item"
+        }
+    },
+    
+    "result":
+    {
+        "item": "em:hieros_stone_block",
+        "count": 1
+    }
+}

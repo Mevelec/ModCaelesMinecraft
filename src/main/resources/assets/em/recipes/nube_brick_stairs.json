@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped", 
+    
+    "pattern":
+    [
+        "N  ",
+        "NN ",
+        "NNN"
+    ],
+    
+    "key":
+    {
+        "N":
+        {
+            "item": "em:nube_brick_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "em:nube_brick_stairs_block",
+        "count": 4
+    }
+}
