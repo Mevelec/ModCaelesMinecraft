@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "em:nube_brick_block" }
+    }
+}

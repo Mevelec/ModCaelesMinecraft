@@ -1,0 +1,7 @@
+{
+    "parent": "block/fire_floor",
+    "textures": {
+        "particle": "em:blocks/fire_layer_1",
+        "fire": "em:blocks/fire_layer_1"
+    }
+}

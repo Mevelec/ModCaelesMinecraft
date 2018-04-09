@@ -1,0 +1,11 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+         "up":    "em:blocks/evil_pumpkin_top",
+         "down":  "em:blocks/evil_pumpkin_side",
+         "east":  "em:blocks/evil_pumpkin_side",
+         "west":  "em:blocks/evil_pumpkin_side",
+         "north": "em:blocks/evil_pumpkin_face",
+         "south": "em:blocks/evil_pumpkin_side"
+ }
+}

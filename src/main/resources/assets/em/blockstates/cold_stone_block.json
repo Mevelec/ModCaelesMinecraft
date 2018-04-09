@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "em:cold_stone_block" }
+    }
+}

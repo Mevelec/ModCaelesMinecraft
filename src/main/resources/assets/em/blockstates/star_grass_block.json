@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "snowy=false":  { "model": "em:star_grass_block" },
+        "snowy=true":   { "model": "em:star_grass_block" }
+    }
+}

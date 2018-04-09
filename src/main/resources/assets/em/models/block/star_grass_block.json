@@ -1,0 +1,11 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+		 "up":    "em:blocks/star_grass_top",
+		 "down":  "em:blocks/star_grass_side",
+		 "east":  "em:blocks/star_grass_side",
+		 "west":  "em:blocks/star_grass_side",
+		 "north": "em:blocks/star_grass_side",
+		 "south": "em:blocks/star_grass_side"
+ }
+}

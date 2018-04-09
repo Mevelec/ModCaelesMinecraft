@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "em:half_nube_brick_slab_block" },
+        "half=top,variant=default": { "model": "em:upper_nube_brick_slab_block" }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "stage=0,type=oaktest":        { "model": "em:tree_sapling_block", "y": 180 },
+        "stage=1,type=jungletest":     { "model": "em:tree_sapling_block" },
+        "stage=0,type=birchtest" :     { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=1,type=birchtest" :     { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=1,type=sprucetest" :    { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=0,type=jungletest" :    { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=0,type=sprucetest" :    { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=1,type=oaktest" :       { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=0,type=acaciatest" :    { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=0,type=dark_oaktest" :  { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=1,type=dark_oaktest" :  { "model": "em:tree_sapling_block", "y": 90 },
+        "stage=1,type=acaciatest" :    { "model": "em:tree_sapling_block", "y": 90 }
+    }
+}
