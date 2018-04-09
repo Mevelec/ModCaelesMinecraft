@@ -1,6 +1,4 @@
-package com.elros.elrosmod.blocks;
-
-import com.elros.elrosmod.blocks.portal.CaelesTeleporter;
+package com.elros.elrosmod.blocks.portal;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;

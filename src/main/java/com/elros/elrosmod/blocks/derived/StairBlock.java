@@ -2,7 +2,7 @@ package com.elros.elrosmod.blocks.derived;
 
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -20,7 +20,7 @@ public class StairBlock extends BlockStairs implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(Main.tabCaelesMod);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

@@ -1,7 +1,7 @@
 package com.elros.elrosmod.util.handlers;
 
-import com.elros.elrosmod.blocks.ModBlocks;
 import com.elros.elrosmod.blocks.basic.SlabBlockMaster;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 

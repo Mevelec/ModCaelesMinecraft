@@ -3,9 +3,9 @@ package com.elros.elrosmod.blocks.basic;
 import java.util.Random;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
 import com.elros.elrosmod.blocks.derived.SlabBlock;
 import com.elros.elrosmod.blocks.types.EnumType;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -60,7 +60,7 @@ public abstract class SlabBlockMaster extends BlockSlab implements IHasModel
         
         setDefaultState(state);
         //this.setDefaultState(iblockstate.withProperty(VARIANT, SlabBlock.Variant.DEFAULT));
-        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        this.setCreativeTab(Main.tabCaelesMod);
         
 	}
 	

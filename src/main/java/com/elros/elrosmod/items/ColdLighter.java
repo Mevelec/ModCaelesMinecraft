@@ -1,7 +1,7 @@
 package com.elros.elrosmod.items;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -32,7 +32,7 @@ public class ColdLighter extends Item implements IHasModel
 		setRegistryName(name);
 		this.maxStackSize = 1;
 		this.setMaxDamage(64);
-		this.setCreativeTab(CreativeTabs.TOOLS);
+		this.setCreativeTab(Main.tabCaelesMod);
 
 
 		ModItems.ITEMS.add(this);

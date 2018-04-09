@@ -1,4 +1,17 @@
-item.star_grass_block.name=Star Grass
-item.nube_brick_stairs_block.name=Nube Stairs
-item.nube_brick_slab_block.name=Nube Slab
-item.nube_brick_block.name=Nube Bricks
+//Items
+item.cold_lighter_item.name=Cold Lighter
+item.hieros_stone_dust_item.name=Hieros Stone Dust
+item.meteorite_ingot_item.name=Meteorite Ingot
+
+//blocks
+tile.meteor_ore_block.name=Meteor Ore
+tile.cold_stone_block.name=Cold Stone
+tile.hieros_stone_block.name=Hieros Stone
+tile.star_grass_block.name=Star Grass
+tile.nube_stone_block.name=Nube Stone
+tile.nube_brick_block.name=Nube Bricks
+tile.nube_brick_stairs_block.name=Nube Stairs
+tile.nube_brick_slab_block.name=Nube Slab
+
+//Creative Tabs
+itemGroup.caeles_mod=Caeles Mod Tab

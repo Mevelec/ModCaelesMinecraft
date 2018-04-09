@@ -3,7 +3,7 @@ package com.elros.elrosmod.blocks.natural;
 import java.util.Random;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -39,7 +39,7 @@ public class StarGrassBlock extends Block implements IGrowable, IHasModel
 			
 	        this.setDefaultState(this.blockState.getBaseState().withProperty(SNOWY, Boolean.valueOf(false)));
 	        this.setTickRandomly(true);
-	        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+	        this.setCreativeTab(Main.tabCaelesMod);
 	        
 	        ModBlocks.BLOCKS.add(this);	
 			ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

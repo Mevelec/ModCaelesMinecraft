@@ -3,8 +3,8 @@ package com.elros.elrosmod.blocks.natural;
 import java.util.Random;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
 import com.elros.elrosmod.blocks.types.EnumType;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -55,7 +55,7 @@ public class SaplingBlock extends BlockBush implements IGrowable, IHasModel
 		
         this.setDefaultState(this.blockState.getBaseState().withProperty(TYPE, EnumType.WoodEnumType.OAKTEST).withProperty(STAGE, Integer.valueOf(0)));
        
-        this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        this.setCreativeTab(Main.tabCaelesMod);
     
         ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

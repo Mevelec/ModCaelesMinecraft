@@ -2,7 +2,7 @@ package com.elros.elrosmod.blocks.portal;
 
 import java.util.Random;
 
-import com.elros.elrosmod.blocks.ModBlocks;
+import com.elros.elrosmod.init.ModBlocks;
 
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;

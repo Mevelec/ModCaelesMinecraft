@@ -1,10 +1,11 @@
-package com.elros.elrosmod.blocks;
+package com.elros.elrosmod.init;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.elros.elrosmod.blocks.basic.BlockBase;
 import com.elros.elrosmod.blocks.basic.ColdIce;
+import com.elros.elrosmod.blocks.basic.HierosStone;
 import com.elros.elrosmod.blocks.basic.SlabBlockMaster;
 import com.elros.elrosmod.blocks.derived.DoubleSlabBlock;
 import com.elros.elrosmod.blocks.derived.HalfSlabBlock;
@@ -32,21 +33,18 @@ public class ModBlocks
 
 	public static final Block TREE_SAPLING_BLOCK  = new SaplingBlock("tree_sapling_block", Material.PLANTS);
 	
-	public static final Block METEOR_ORE_BLOCK   = new BlockBase("meteor_ore_block", Material.GROUND);
+	public static final Block METEOR_ORE_BLOCK   = new BlockBase("meteor_ore_block", Material.GROUND).setHardness(1.5F).setResistance(10.0F);
 
-	public static final Block COLD_STONE_BLOCK   = new ColdIce("cold_stone_block", Material.PACKED_ICE);
+	public static final Block COLD_STONE_BLOCK   = new ColdIce("cold_stone_block", Material.PACKED_ICE).setHardness(1.5F).setResistance(10.0F);
+
+	public static final Block HIEROS_STONE_BLOCK   = new HierosStone("hieros_stone_block", Material.GLASS).setHardness(0.3F);
 	
-	public static final Block HIEROS_STONE_BLOCK   = new BlockBase("hieros_stone_block", Material.GLASS).setHardness(0.3F).setLightLevel(1.0F);
-
-	public static final Block NUBE_STONE_BLOCK   = new BlockBase("nube_stone_block", Material.GROUND);
-
-	public static final Block NUBE_BRICK_BLOCK    = new BlockBase("nube_brick_block", Material.GROUND);
-	public static final Block NUBE_BRICK_STAIR_BLOCK    = new StairBlock("nube_brick_stairs_block", NUBE_BRICK_BLOCK.getDefaultState());
-	
+	public static final Block NUBE_STONE_BLOCK   = new BlockBase("nube_stone_block", Material.GROUND).setHardness(1.5F).setResistance(10.0F);
+	public static final Block NUBE_BRICK_BLOCK    = new BlockBase("nube_brick_block", Material.GROUND).setHardness(1.5F).setResistance(10.0F);
+	public static final Block NUBE_BRICK_STAIR_BLOCK    = new StairBlock("nube_brick_stairs_block", NUBE_BRICK_BLOCK.getDefaultState()).setHardness(1.5F).setResistance(10.0F);
 	public static com.elros.elrosmod.blocks.derived.SlabBlock  SlabBlock = new SlabBlock();
 				
-	public static final Block STAR_GRASS_BLOCK    = new StarGrassBlock("star_grass_block", Material.GRASS);
-
+	public static final Block STAR_GRASS_BLOCK    = new StarGrassBlock("star_grass_block", Material.GRASS).setHardness(1.5F).setResistance(10.0F);
 
 	public static final CaelesPortalBlock CAELES_PORTAL_BLOCK = new CaelesPortalBlock("caeles_portal_block", Material.GRASS);
 	

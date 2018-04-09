@@ -1,7 +1,7 @@
 package com.elros.elrosmod.blocks.derived;
 
-import com.elros.elrosmod.blocks.ModBlocks;
 import com.elros.elrosmod.blocks.basic.SlabBlockMaster;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 
 import net.minecraft.block.material.Material;
@@ -11,8 +11,8 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class SlabBlock 
 {
-	public static final SlabBlockMaster NUBE_BRICK_SLAB_BLOCK          = (SlabBlockMaster) new HalfSlabBlock("nube_brick_slab_block", Material.GROUND).setUnlocalizedName("nube_brick_slab_block");
-	public static final SlabBlockMaster NUBE_BRICK_DOUBLESLAB_BLOCK    = (SlabBlockMaster) new DoubleSlabBlock("nube_brick_doubleslab_block", Material.GROUND).setUnlocalizedName("nube_brick_slab_block");
+	public static final SlabBlockMaster NUBE_BRICK_SLAB_BLOCK          = (SlabBlockMaster) new HalfSlabBlock("nube_brick_slab_block", Material.GROUND).setUnlocalizedName("nube_brick_slab_block").setHardness(1.5F).setResistance(10.0F);
+	public static final SlabBlockMaster NUBE_BRICK_DOUBLESLAB_BLOCK    = (SlabBlockMaster) new DoubleSlabBlock("nube_brick_doubleslab_block", Material.GROUND).setUnlocalizedName("nube_brick_slab_block").setHardness(1.5F).setResistance(10.0F);
 
 	public SlabBlock()
 	{

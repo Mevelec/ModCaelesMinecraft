@@ -5,8 +5,7 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
-import com.elros.elrosmod.blocks.TileEntityDim;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 import com.google.common.cache.LoadingCache;
@@ -82,7 +81,7 @@ public class CaelesPortalBlock extends BlockPortal implements IHasModel
 
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
-		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		this.setCreativeTab(Main.tabCaelesMod);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

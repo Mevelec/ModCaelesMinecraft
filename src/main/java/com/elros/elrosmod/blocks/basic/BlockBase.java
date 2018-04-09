@@ -1,7 +1,7 @@
 package com.elros.elrosmod.blocks.basic;
 
 import com.elros.elrosmod.Main;
-import com.elros.elrosmod.blocks.ModBlocks;
+import com.elros.elrosmod.init.ModBlocks;
 import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.util.IHasModel;
 
@@ -17,9 +17,10 @@ public class BlockBase extends Block implements IHasModel
 	public BlockBase(String name, Material material)
 	{
 		super(material);
+		this.blockSoundType = SoundType.GLASS;
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);
-		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		this.setCreativeTab(Main.tabCaelesMod);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

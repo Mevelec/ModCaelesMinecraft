@@ -6,6 +6,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import com.elros.elrosmod.Main;
 import com.google.common.collect.Lists;
 
 import net.minecraft.block.BlockRedstoneTorch;
@@ -29,7 +30,7 @@ public class ColdIce extends BlockBase
 	public ColdIce(String name, Material material) {
 		super(name, material);
 		this.slipperiness = 0.98F;
-		this.setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		this.setCreativeTab(Main.tabCaelesMod);
 	}    
 
 	/**

@@ -1,9 +1,12 @@
 package com.elros.elrosmod;
 
+import com.elros.elrosmod.init.ModItems;
 import com.elros.elrosmod.proxy.CommonProxy;
 import com.elros.elrosmod.util.Reference;
 import com.elros.elrosmod.world.ModDimensions;
 
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -39,5 +42,13 @@ public class Main
 	{
 		
 	}
+	
+	public static CreativeTabs tabCaelesMod = new CreativeTabs("caeles_mod") {
+		@Override
+		public ItemStack getTabIconItem()
+		{
+			return new ItemStack(ModItems.METEORITE_INGOT_ITEM);
+		}
+	};
 	
 }
