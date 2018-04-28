@@ -11,6 +11,7 @@ import com.elros.elrosmod.blocks.derived.DoubleSlabBlock;
 import com.elros.elrosmod.blocks.derived.HalfSlabBlock;
 import com.elros.elrosmod.blocks.derived.StairBlock;
 import com.elros.elrosmod.blocks.fire.ColdFire;
+import com.elros.elrosmod.blocks.machines.SinteringFurnace;
 import com.elros.elrosmod.blocks.natural.SaplingBlock;
 import com.elros.elrosmod.blocks.derived.SlabBlock;
 
@@ -49,5 +50,9 @@ public class ModBlocks
 	public static final CaelesPortalBlock CAELES_PORTAL_BLOCK = new CaelesPortalBlock("caeles_portal_block", Material.GRASS);
 	
 	public static final ColdFire COLD_FIRE_BLOCK = new ColdFire("cold_fire_block", Material.GRASS);
+	
+	///////////////////////////////////////////////////////////
+	
+	public static final Block SINTERING_FURNACE = new SinteringFurnace("sintering_furnace", Material.GRASS);
 		
 }
